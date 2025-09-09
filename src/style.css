@@ -9,8 +9,13 @@
   --font-code: "Fira Code", monospace;
 
   --color-antiflash-white: #f1f1f1ff;
-  --color-eerie-black: #1d1d1dff;
+  --color-eerie-black: #000000;
   --color-brandeis-blue-300: #177CFF;
   --color-brandeis-blue-500: #006bf7ff;
   --color-brandeis-blue-700: #0052BD;
+}
+
+#parallax-bg {
+  transform: translateZ(0); /* Força a aceleração de hardware */
+  will-change: transform; /* Otimização para animação */
 }
