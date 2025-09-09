@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@theme {
+  --font-primary: "Montserrat", sans-serif;
+  --font-secundary: "Inter", sans-serif;
+  --font-code: "Fira Code", monospace;
+
+  --color-antiflash-white: #f1f1f1ff;
+  --color-eerie-black: #1d1d1dff;
+  --color-brandeis-blue-300: #177CFF;
+  --color-brandeis-blue-500: #006bf7ff;
+  --color-brandeis-blue-700: #0052BD;
+}
